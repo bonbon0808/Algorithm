@@ -10,7 +10,7 @@ public class Solution {
     
         System.out.println("a = " + num1);
         System.out.println("b = " + num2);
-        
+        sc.close();
         
     }
 }
