@@ -5,9 +5,8 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         
-        if(1<= str.length() && str.length() <= 1000000) {
-            System.out.println(str);
-        }
-    
+        System.out.println(str);
+        sc.close();
+        
     }
 }
