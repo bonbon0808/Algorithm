@@ -6,6 +6,10 @@ public class Solution {
         String a = sc.next();
         String b = sc.next();
         
-        System.out.println(a + b);
+        // System.out.println(a + b);
+        
+        // concat()
+        String c = a.concat(b);
+        System.out.println(c);
     }
 }
