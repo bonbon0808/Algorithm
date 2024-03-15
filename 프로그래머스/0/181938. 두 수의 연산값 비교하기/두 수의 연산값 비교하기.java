@@ -1,9 +1,8 @@
 class Solution {
     public int solution(int a, int b) {
 
-        int multiply = 2*a*b;
         String ab = String.valueOf(a) + String.valueOf(b);
-        String ab2 = String.valueOf(multiply);
+        String ab2 = String.valueOf(2*a*b);
         
         if(ab.equals(ab2)){
             return Integer.parseInt(ab);
